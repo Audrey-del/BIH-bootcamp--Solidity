@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "evenNum",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "bits",
+						"type": "uint8"
+					}
+				],
+				"name": "getMostSignificantBits",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "oddNum",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DEPLOY & RUN TRANSACTIONS/SimpleArithmetic.sol": "ArithmeticContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DEPLOY & RUN TRANSACTIONS/SimpleArithmetic.sol": {
+			"keccak256": "0xc2b4b7b8ef09326277bcbc5b5cc3807b1f4afe1ef9c0c87e80700c833554f08a",
+			"urls": [
+				"bzz-raw://aa1c8f7523b6d0b48f31b15fde20d3180fd1274e04a6ff9e9d745355e929a9d8",
+				"dweb:/ipfs/Qmag7ECYBXEdvPHFH8u3GypLvxM7yB2ywWqfAyFjpWuoGM"
+			]
+		}
+	},
+	"version": 1
+}
